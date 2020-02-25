@@ -3,46 +3,46 @@ Algoritma (1) =     - mengetahui massa benda
                     - mencari tau resultan gaya dengan mengkali masa benda dan percepatan benda
                     - menampilkan hasil hitung
 
-Pseudocode (1) =    SET massa TO 600
-                    SET acc TO 2
-                    SET rGaya TO 0
-                    COMPUTE rGaya TO massa * acc
-                    DISPLAY rGaya
+Pseudocode (1) =    SET "massa" TO 600
+                    SET "acc" TO 2
+                    SET "rGaya" TO 0
+                    COMPUTE "rGaya" TO massa * acc
+                    DISPLAY "rGaya"
                     
 Algoritma (2)  =    - mengetahui tahun tersebut
                     - mencari tau tahun kabisat atau tidak
                     - menampilkan kabisat atau tidak
 
-Pseudocode (2) =    SET tahun TO 2024
+Pseudocode (2) =    SET "tahun" TO 2024
                     IF (kabisat MOD 4 EQUAL TO 0 AND kabisat MOD 100 NOT EQUAL 0)
-                        DISPLAY tahun + "adalah tahun kabisat"
+                        DISPLAY "tahun" + "adalah tahun kabisat"
                     ELSE
-                        DISPLAY tahun + "adalah bukan tahun kabisat"
+                        DISPLAY "tahun" + "adalah bukan tahun kabisat"
                     
 Algoritma (3)   =   - menghitung jumlah pakaian yang akan dicuci
                     - memasukkan pakaian satu per satu ke mesin cuci
                     - jika sudah 20 pakaian, mesin cuci akan menyala
 
-Pseudocode (3)  =   SET cucian TO 0
-                    WHILE cucian <= 20
-                    DISPLAY "ini adalah baju ke-" + cucian
-                    ADD cucian BY 1
+Pseudocode (3)  =   SET "cucian" TO 0
+                    WHILE "cucian" <= 20
+                    DISPLAY "ini adalah baju ke-" + "cucian"
+                    ADD "cucian" BY 1
                     
-                    IF cucian = 20
+                    IF "cucian" = 20
                     DISPLAY "Mesin Menyala"
 
 Algoritma (4)   =   - guru memerika kuku satu per satu sampai 40 siswa
                     - jika kuku panjang akan dihukum
                     - jika kuku pendek akan dipuji
 
-Pseudocode (4)  =   SET siswa to 0
-                    WHILE siswa < 40
-                    ADD siswa BY 1
-                    DISPLAY siswa
+Pseudocode (4)  =   SET "siswa" to 0
+                    WHILE "siswa" < 40
+                    ADD "siswa" BY 1
+                    DISPLAY "siswa"
 
-                    SET kpendek TO kpendek MOD 2 EQUAL TO 0
-                    SET kpanjang TO kpanjang MOD 2 NOT EQUAL TO 0
-                    IF siswa MOD 2 EQUAL TO 0
+                    SET "kpendek" TO "kpendek" MOD 2 EQUAL TO 0
+                    SET "kpanjang" TO "kpanjang" MOD 2 NOT EQUAL TO 0
+                    IF "siswa" MOD 2 EQUAL TO 0
                     DISPLAY "mendapat pujian"
                     ELSE
                     DISPLAY "mendapat hukuman"
