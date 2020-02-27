@@ -35,14 +35,14 @@ Algoritma (4)   =   - guru memerika kuku satu per satu sampai 40 siswa
                     - jika kuku panjang akan dihukum
                     - jika kuku pendek akan dipuji
 
-Pseudocode (4)  =   SET "siswa" to 0
-                    WHILE "siswa" < 40
-                    ADD "siswa" BY 1
-                    DISPLAY "siswa"
-
-                    SET "kpendek" TO "kpendek" MOD 2 EQUAL TO 0
-                    SET "kpanjang" TO "kpanjang" MOD 2 NOT EQUAL TO 0
-                    IF "siswa" MOD 2 EQUAL TO 0
-                    DISPLAY "mendapat pujian"
+Pseudocode (4)  =   SET "siswa" to 1
+                    SET "kondisi kuku" to specific value;
+                    WHILE "siswa" <= 40
+                    IF "siswa kuku" > "kondisi kuku"
+                    DO "menghukum siswa i"
                     ELSE
-                    DISPLAY "mendapat hukuman"
+                    DO "memuji siswa i"
+                    ADD "siswa" BY 1
+                    DISPLAY "selesai"
+
+                    
